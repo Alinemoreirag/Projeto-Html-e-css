@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto individual New Tab</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <body>
+        
+        <body>
+            <cabecalho>
+              <div class="container_cabecalho">
+                <div class="container_cabecalho_imagem">
+                    <svg width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M31.3043 32.8246C33.7056 32.8246 35.6522 30.8609 35.6522 28.4386C35.6522 26.0163 33.7056 24.0526 31.3043 24.0526C28.9031 24.0526 26.9565 26.0163 26.9565 28.4386C26.9565 30.8609 28.9031 32.8246 31.3043 32.8246ZM31.3043 32.8246C27.4624 32.8246 24.3478 35.9664 24.3478 39.8421H38.2609C38.2609 35.9664 35.1463 32.8246 31.3043 32.8246ZM15.6522 10.8947C15.6522 15.2549 12.1483 18.7895 7.82609 18.7895C3.50386 18.7895 0 15.2549 0 10.8947C0 6.53459 3.50386 3 7.82609 3C12.1483 3 15.6522 6.53459 15.6522 10.8947ZM0 24.0526H15.6522V39.8421H0V24.0526ZM31.3043 3L40 18.7895H22.6087L31.3043 3Z" stroke="#333333" stroke-width="2" stroke-linecap="square"/>
+                        </svg>    
+                </div>
+          
+                <div class="container_cabecalho_titulo">
+                  <span class="cabecalho_titulo">Controle Financeiro</span>
+                </div>
+          
+                <!-- Menu Lateral Hamburguer -->
+                
+                <div class="container_cabecalho_menu">
+                  <input type="checkbox" id="chec">
+                  <label class="nav_menu_rotulo" for="chec">
+                    <img src="img/menu.png" alt="Menu">
+                  </label>
+          
+                  <nav class="container_nav_menu">
+                    <ul>
+                      <li>
+                        <input type="checkbox" id="chec">
+                        <label class="nav_menu_rotulo" for="chec">
+                        <img class="nav_menu_imagem" src="img/sidebar-close-btn.svg" alt="Fechar Janela">
+                      </li>
+                      <li><a class="link_cadastro" href="#">Cadastro de transações</a></li>
+                      <li><a class="link_limpar" href="#">Limpar dados</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </header>
+          
+            <!-- Section utilizando a section -->
+            <section class="container_total">
+                <section>
+                  <div class="container_secao">
+                    <div class="container_secao_texto">
+                      <div>Tipo de transação</div>
+                      <div class="container_secao_entrada">
+                        <select name="selecao" id="selecao">
+                          <option value="compra" selected>Compra</option>
+                          <option value="venda">Venda</option>
+                        </select>
+                      </div>
+                    </div>
+              
+                    <div class="container_secao_texto">
+                      <div>Nome da mercadoria</div>
+                      <div class="container_secao_entrada">
+                        <input type="text" name="mercadoria" id="mercadoria" placeholder="entrada">
+                      </div>
+                    </div>
+              
+                    <div class="container_secao_texto">
+                      <div>Valor</div>
+                      <div class="container_secao_entrada">
+                        <input type="number" name="valor" id="valor" placeholder="R$ 0,00">
+                      </div>
+                    </div>
+              
+                    <div class="container_secao_botao">
+                      <input class="button" type="button" value="Adicionar transação">
+                    </div>
+                  </div>
+                </section>
+              
+                <section>
+                  <div class="container_secao_2">
+                    <div class="container_secao_2_titulo">
+                      <p>Extrato de transações</p>
+                    </div>
+              
+                    <!-- usando sempre div para criar tabelas separadas -->
+              
+                    <div class="container_tabela">
+                      <div class="tabela_titulo">Mercadoria</div>
+                      <div class="tabela_titulo">Valor</div>
+                    </div>
+              
+                    <div class="container_tabela">
+                      <div class="tabela_corpo">+</div>
+                      <div class="tabela_corpo">Notebook gamer I7 placa de video</div>
+                      <div class="tabela_corpo">R$ 12.999,99</div>
+                    </div>
+              
+                    <div class="container_tabela">
+                      <div class="tabela_corpo">-</div>
+                      <div class="tabela_corpo"> Descontos </div>
+                      <div class="tabela_corpo">R$ 99,99</div>
+                    </div>
+              
+                    <div class="container_tabela">
+                      <div class="tabela_corpo">+</div>
+                      <div class="tabela_corpo">Frete</div>
+                      <div class="tabela_corpo">R$ 9,99</div>
+                    </div>
+              
+                    <div class="container_tabela">
+                      <div class="tabela_rodape">Total</div>
+                      <div class="tabela_rodape">R$ 12.909,99</div>
+                      <div class="tabela_rodape">[LUCRO]</div>
+                    </div>
+                </section>
+            </section>
+          
+            <!-- Fim da página  -->
+          
+            <footer>
+              <div class="linha_horizontal_rodape"></div>
+            </footer>
+    
+ 
+    
+</body>
+</html>
